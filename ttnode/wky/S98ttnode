@@ -1,0 +1,8 @@
+#!/bin/sh
+#sleep 5
+#/app/system/miner.plugin-dockerd.ipk/bin/dockerd_monitor
+sleep 5
+sh /usr/node/crash_monitor.sh &
+#sh /app/system/miner.plugin-dockerd.ipk/start.sh &
+# /usr/node/ttnode -p /media/sda1
+exit 0
